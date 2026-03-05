@@ -1,5 +1,6 @@
 "use client"
 
+import ProductTable from "@/components/ProductTable";
 import { useGetProductsQuery } from "@/rtk/apiSlice";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
   if (isError) return <p>Something went wrong</p>;
 
   return (
-    null
+     <div className="p-10">
+      <ProductTable products={products ?? []} />
+    </div>
   );
 }
