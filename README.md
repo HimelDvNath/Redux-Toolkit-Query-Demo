@@ -27,7 +27,7 @@ The app was bootstrapped with `create-next-app` and uses TypeScript.
 1. **Clone the repo**  
    ```bash
    git clone <project‑repo‑url>
-   cd mini-project3
+   cd Redux-Toolkit-Query-Demo
    ```
 2. **Install dependencies**
    ```bash
